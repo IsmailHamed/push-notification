@@ -3,7 +3,18 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+    production: false,
+    firebase: {
+        apiKey: 'AIzaSyCggPr5eGjgiC8lfpnPR2ar0CI0J-nNq3E',
+        authDomain: 'laravel-fcm-83622.firebaseapp.com',
+        databaseURL: 'https://laravel-fcm-83622.firebaseio.com',
+        projectId: 'laravel-fcm-83622',
+        storageBucket: 'laravel-fcm-83622.appspot.com',
+        messagingSenderId: '138811305597',
+        appId: '1:138811305597:web:d1341eaf80014ce1b28b14',
+        measurementId: 'G-JKTGNVBXET'
+    }
+
 };
 
 /*
